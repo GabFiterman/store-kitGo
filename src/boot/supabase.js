@@ -7,5 +7,5 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 console.log("Init Supabase:\n", supabase);
 
 const useSupabase = () => {
-  return supabase;
+    return supabase;
 };

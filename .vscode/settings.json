@@ -1,20 +1,13 @@
 {
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": true,
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.codeActionsOnSave": [
-    "source.fixAll.eslint"
-  ],
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "vue"
-  ],
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#5D072C",
-    "titleBar.activeBackground": "#830A3D",
-    "titleBar.activeForeground": "#FFFCFD"
-  }
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": ["source.fixAll.eslint"],
+    "eslint.validate": ["javascript", "javascriptreact", "typescript", "vue"],
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#5D072C",
+        "titleBar.activeBackground": "#830A3D",
+        "titleBar.activeForeground": "#FFFCFD"
+    }
 }
