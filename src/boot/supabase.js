@@ -9,3 +9,5 @@ console.log("Init Supabase:\n", supabase);
 const useSupabase = () => {
     return supabase;
 };
+
+export { useSupabase };

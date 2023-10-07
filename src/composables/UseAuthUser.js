@@ -1,5 +1,5 @@
 import { ref } from "vue";
-import useSupabase from "boot/supabase";
+import { useSupabase } from "boot/supabase";
 const user = ref(null);
 
 const useAuthUser = () => {
